@@ -51,7 +51,7 @@ deps-test: stage
 deps-test-local: stage
 	rm -rf stage/aem-helloworld-config/ stage/user-config/*
 	cp -R ../aem-helloworld-config/aem-stack-manager-messenger/* stage/user-config/
-	cp -R stage/aem-helloworld-config/descriptors/* stage/user-descriptors/
+	cp -R ../aem-helloworld-config/descriptors/* stage/user-descriptors/
 
 ################################################################################
 # Code styling check and validation targets:
